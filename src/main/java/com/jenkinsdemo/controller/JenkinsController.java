@@ -48,4 +48,8 @@ public class JenkinsController {
 		return service.deleteProduct(id);
 	}
 	
+	public String check() {
+		return "Checking";
+	}
+	
 }
